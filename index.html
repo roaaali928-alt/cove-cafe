@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="COVE - small cafe for coffee, breakfast and desserts">
+<title>Home | COVE</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html" data-ar="كوف">COVE</a>
+  <button id="menuBtn" aria-label="Menu">☰</button>
+  <nav id="nav"><a href="index.html" class=active data-ar="الرئيسية">Home</a><a href="drinks.html" data-ar="المشروبات">Drinks</a><a href="food.html" data-ar="الأكل">Food</a><a href="desserts.html" data-ar="الحلويات">Desserts</a><a href="about.html" data-ar="من نحن">About us</a><a href="contact.html" data-ar="اتصل بنا">Contact us</a><a href="login.html" data-ar="دخول / تسجيل">Sign in / Sign up</a></nav>
+  <button id="langBtn" class="lang" type="button">العربية</button>
+</header>
+<main>
+
+<section class="hero">
+  <div>
+    <h1 data-ar="كل رشفة، كل قضمة، لحظة صغيرة من السعادة.">Every Sip, Every Bite, A Little Moment of Happiness.</h1>
+    <p data-ar="كافيه صغير وراقي للقهوة والفطار والحلويات. نطحن البن عند الطلب ونخبز الحلويات كل يوم.">A small, refined cafe for coffee, breakfast and desserts. We grind the beans to order and bake desserts every day.</p>
+    <a class="btn" href="drinks.html" data-ar="شاهد المنيو">See the menu</a>
+    <a class="btn ghost" href="contact.html" data-ar="تواصل معنا">Contact us</a>
+  </div>
+  <img class="arch" src="images/hero.jpg" alt="Our coffee corner with an espresso machine">
+</section>
+<section>
+  <h2 data-ar="اكتشف مكاننا">Explore our place</h2>
+  <div class="grid">
+    <a class="tile" href="drinks.html"><h3 data-ar="المشروبات">Drinks</h3><p data-ar="قهوة ساخنة وساقعة وماتشا وفريش.">Hot and iced coffee, matcha and fresh drinks.</p></a>
+    <a class="tile" href="food.html"><h3 data-ar="الأكل">Food</h3><p data-ar="فطار ووافل وبان كيك.">Breakfast, waffles and pancakes.</p></a>
+    <a class="tile" href="desserts.html"><h3 data-ar="الحلويات">Desserts</h3><p data-ar="تشيز كيك وتيراميسو وبراونيز.">Cheesecakes, tiramisu and brownies.</p></a>
+    <a class="tile" href="about.html"><h3 data-ar="من نحن">About us</h3><p data-ar="قصتنا وقيمنا.">Our story and values.</p></a>
+    <a class="tile" href="contact.html"><h3 data-ar="اتصل بنا">Contact us</h3><p data-ar="ارسل لنا رسالة.">Send us a message.</p></a>
+    <a class="tile" href="login.html"><h3 data-ar="حسابك">Sign in / Sign up</h3><p data-ar="أنشئ حسابك.">Create your account.</p></a>
+  </div>
+</section>
+<section class="media">
+  <video controls preload="metadata" poster="images/poster.jpg"><source src="media/intro.mp4" type="video/mp4">Your browser does not support video.</video>
+  <div>
+    <h2 data-ar="من خلف البار">Behind the bar</h2>
+    <p data-ar="شاهد كيف نحضّر القهوة، واستمع لموسيقانا المفضلة وأنت تتصفح.">Watch how we prepare coffee, and listen to our favorite music while you browse.</p>
+    <p><strong data-ar="يعمل الآن: Bossa Nova Cafe Instrumental">Now playing: Bossa Nova Cafe Instrumental</strong></p>
+    <audio controls loop><source src="media/bossa-nova.mp3" type="audio/mpeg">Your browser does not support audio.</audio>
+  </div>
+</section>
+</main>
+<footer class="site-footer"><p>© 2026 <span data-ar="كوف">COVE</span>. <span data-ar="جميع الحقوق محفوظة.">All rights reserved.</span></p></footer>
+</body>
+</html>

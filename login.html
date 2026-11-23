@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="COVE - small cafe for coffee, breakfast and desserts">
+<title>Sign in / Sign up | COVE</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html" data-ar="كوف">COVE</a>
+  <button id="menuBtn" aria-label="Menu">☰</button>
+  <nav id="nav"><a href="index.html" data-ar="الرئيسية">Home</a><a href="drinks.html" data-ar="المشروبات">Drinks</a><a href="food.html" data-ar="الأكل">Food</a><a href="desserts.html" data-ar="الحلويات">Desserts</a><a href="about.html" data-ar="من نحن">About us</a><a href="contact.html" data-ar="اتصل بنا">Contact us</a><a href="login.html" class=active data-ar="دخول / تسجيل">Sign in / Sign up</a></nav>
+  <button id="langBtn" class="lang" type="button">العربية</button>
+</header>
+<main>
+
+<section><h1 data-ar="حسابك">Your account</h1>
+<div class="split">
+  <form id="signinForm" class="form" novalidate>
+    <h2 data-ar="تسجيل الدخول">Sign in</h2>
+    <label for="si-e" data-ar="البريد الإلكتروني">Email</label><input id="si-e" type="email" required autocomplete="email">
+    <label for="si-p" data-ar="كلمة المرور">Password</label><input id="si-p" type="password" required autocomplete="current-password">
+    <button class="btn" data-ar="دخول">Sign in</button><p class="msg" role="status"></p>
+  </form>
+  <form id="signupForm" class="form" novalidate>
+    <h2 data-ar="إنشاء حساب">Sign up</h2>
+    <label for="su-n" data-ar="الاسم">Name</label><input id="su-n" required>
+    <label for="su-e" data-ar="البريد الإلكتروني">Email</label><input id="su-e" type="email" required autocomplete="email">
+    <label for="su-p" data-ar="كلمة المرور (6 أحرف على الأقل)">Password (min 6 characters)</label><input id="su-p" type="password" required autocomplete="new-password">
+    <label for="su-c" data-ar="تأكيد كلمة المرور">Confirm password</label><input id="su-c" type="password" required autocomplete="new-password">
+    <button class="btn" data-ar="إنشاء الحساب">Create account</button><p class="msg" role="status"></p>
+  </form>
+</div></section>
+</main>
+<footer class="site-footer"><p>© 2026 <span data-ar="كوف">COVE</span>. <span data-ar="جميع الحقوق محفوظة.">All rights reserved.</span></p></footer>
+</body>
+</html>
